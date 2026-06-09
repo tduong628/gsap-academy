@@ -7,6 +7,13 @@
   border-top: var(--border);
 }
 
+/* Grid/flex items default to min-width:auto, which lets the widest code line
+   blow out the track. min-width:0 lets the code block's overflow-x scroll. */
+.lesson__text,
+.lesson__demo {
+  min-width: 0;
+}
+
 .lesson--flip .lesson__text {
   order: 2;
 }
