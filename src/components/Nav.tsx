@@ -45,6 +45,11 @@ export function Nav() {
               <a href={`#${l.id}`}>{l.title}</a>
             </li>
           ))}
+          <li>
+            <a href="#showcase" className="nav__showcase">
+              Showcase
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

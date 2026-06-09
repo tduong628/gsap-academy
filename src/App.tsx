@@ -2,6 +2,7 @@ import { type ReactNode } from 'react';
 import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
 import { LessonSection } from './components/LessonSection';
+import { StoryShowcase } from './components/showcase/StoryShowcase';
 import { Footer } from './components/Footer';
 import { LESSONS, type DemoKey } from './data/lessons';
 import { TweenDemo } from './components/demos/TweenDemo';
@@ -40,6 +41,7 @@ export default function App() {
             />
           ))}
         </div>
+        <StoryShowcase />
         <Footer />
       </main>
     </>
